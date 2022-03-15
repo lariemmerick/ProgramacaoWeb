@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view( "welcome");
     }
+    public function primeiroexercicio()
+    {
+        return view( "exercicio1");
+    }
 }
+
